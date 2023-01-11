@@ -7,6 +7,8 @@
 .item{
   margin: 10px;
   padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .chkbox {
   font-size:20px;
@@ -97,16 +99,18 @@ img {
 /* navを横並びに */
 .main-nav {
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
 }
 .main-nav li {
   margin-left: 36px;
+  background-color: white;
 }
 .main-nav a {
   color: #432;
+  /* color: #00ffff; */
 }
 .main-nav a:hover {
   color: #0bd;
@@ -160,14 +164,16 @@ img {
   text-align: center;
 }
 .menu-content p {
-  font-size: 1.125rem;
+  font-size: 1.4rem;
   margin: 10px 0 0;
+  background-color: #ffa500;
 }
 /* ３×３で配置 */
 .grid {
   display: grid;
   gap: 26px;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 379px 379px 379px;
   margin-top: 6%;
   margin-bottom: 50px;
 }
